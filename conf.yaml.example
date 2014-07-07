@@ -1,0 +1,20 @@
+---
+loadbalancer:
+   hostname: "bits.wikimedia.org"
+datacenters:
+   - hostname: "bits-lb.ulsfo.wikimedia.org"
+     location: "San Francisco, CA, US"
+     lat: 37.72
+     lon: -122.40
+   - hostname: "bits-lb.eqiad.wikimedia.org"
+     location: "Chicago, IL, US"
+     lat: 41.85
+     lon: -87.62
+   - hostname: "bits-lb.esams.wikimedia.org"
+     location: "Amsterdam, NL"
+     lat: 52.39
+     lon: 4.67
+   - hostname: "bits-lb.pmtpa.wikimedia.org"
+     location: "Tampa, FL, US"
+     lat: 27.95
+     lon: -82.46
