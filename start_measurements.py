@@ -72,7 +72,7 @@ def start_measure( hostname, af ):
          'af': af,
          'hostname': hostname
    }
-   print msm_chunk
+   print(msm_chunk)
    msm_info.append( msm_chunk )
    time.sleep( MSM_SPACING )
    return msm_chunk
