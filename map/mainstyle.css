@@ -1,0 +1,15 @@
+/*
+ * General style sheet
+ */
+ 
+body        { font-family:"dejavu sans","arial",sans-Serif; font-size: 82%; margin: 2px; }
+
+#message    { width: 63%; text-align: center; font-weight: bold; border: 0px; }
+
+#map        { width: 100%; height: 95%; float: left; }
+
+#panel      { width: 34%; float: left; border: 0px; padding: .5em 0 0 .5em; min-width:100px; }
+
+#bottom     { clear: both; border: solid 1px black; }
+
+#toadpic    { border-width: 0; }
