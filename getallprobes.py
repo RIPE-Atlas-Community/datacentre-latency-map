@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ##
-## Grabs all probes information from atlas.ripe.net that are late used to process data.
+## Grabs all probes information from atlas.ripe.net that are later used to process data.
 ##
 
 import json
