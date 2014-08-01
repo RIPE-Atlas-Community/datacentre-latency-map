@@ -8,7 +8,7 @@ import json
 import urllib2
 from pprint import pprint 
 
-all_probes_url = 'https://atlas.ripe.net/api/v1/probe/?limit=0'
+all_probes_url = 'https://atlas.ripe.net/api/v1/probe-archive/?format=json'
 
 url_fh = urllib2.urlopen( all_probes_url )
 prb_info = json.load( url_fh )
